@@ -17,7 +17,7 @@ const FirstBody = () => {
         // "https://prathamonline.com/images/law-mob-view/law-new-mobile.png"
     ]
   return (
-    <section className='bg-[#081153] mt-20 py-6 text-center'>
+    <section className='bg-[#081153] w-full mt-20 py-6 text-center'>
       <Swiper modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}

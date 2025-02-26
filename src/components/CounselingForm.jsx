@@ -2,7 +2,7 @@ import React from 'react';
 
 const CounselingForm = () => {
   return (
-    <div className="fixed m-auto right-8 top-96 bg-white shadow-lg border border-yellow-500 p-6 rounded-lg w-80">
+    <div className="hidden md:block fixed m-auto right-8 top-96 bg-white shadow-lg border border-yellow-500 p-6 rounded-lg w-80">
       <h3 className="text-lg font-semibold text-blue-900">GET PERSONALISED COUNSELLING</h3>
       <select className="w-full p-2 border mt-3 rounded">
         <option>Select Program</option>
